@@ -1,0 +1,60 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #fff;
+  margin: auto;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin-right: 3px;
+}
+
+h1 {
+  font-size: 38px;
+  font-weight: bold;
+  background-image: linear-gradient(to right, #4285f4 0%, #4285f4 16.6%, #ea4335 16.6%, #ea4335 33.3%, #fbbc05 33.3%, #fbbc05 50%, #4285f4 50%, #34a853 66.6%, #ea4335 66.6%, #ea4335 83.3%, #4285f4 83.3%, #34a853 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  border-radius: 24px;
+  border: 1px solid #dfe1e5;
+  font-size: 16px;
+  color: #5f6368;
+  margin-right: 10px;
+  background-color: #fff;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  box-shadow: 0px 0px 5px #4285f4;
+}
+
+button[type="submit"] {
+  background-color: #4285f4;
+  color: #fff;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 24px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button[type="submit"]:hover {
+  background-color: #357ae8;
+}
